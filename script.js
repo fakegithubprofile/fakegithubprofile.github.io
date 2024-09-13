@@ -1,4 +1,4 @@
-console.log("Welcome to Aditya Iyer's Academic Resume!");
+console.log("Hi!");
 
 const themeToggle = document.getElementById('theme-toggle');
 const body = document.body;
