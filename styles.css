@@ -52,8 +52,8 @@ main {
 }
 
 .profile-photo {
-  width: 700px; /*was 150*/
-  height: 700px; /*was 150*/
+  width: 300px; /*was 150*/
+  height: 300px; /*was 150*/
   border-radius: 30%; /*was 50%*/
   margin-bottom: 20px;
 }
