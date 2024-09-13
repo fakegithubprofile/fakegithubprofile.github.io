@@ -59,3 +59,19 @@ footer {
     padding: 0 20px;
   }
 }
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px 0;
+  background-color: #007acc;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #005f99;
+}
+
