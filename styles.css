@@ -54,7 +54,7 @@ main {
 .profile-photo {
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 30%; /*was 50%*/
   margin-bottom: 20px;
 }
 
