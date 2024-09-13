@@ -43,19 +43,22 @@ nav .theme-toggle {
 main {
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: calc(100vh - 70px);
-}
-
-.intro {
-  text-align: center;
+  align-items: flex-start
+  padding: 20px;
+  gap: 20px
+  /*height: calc(100vh - 70px);*/
 }
 
 .profile-photo {
   width: 300px; /*was 150*/
-  height: 300px; /*was 150*/
+  height: auto; /*was 150*/
   border-radius: 30%; /*was 50%*/
   margin-bottom: 20px;
+}
+
+.intro {
+  max-width: 500px;
+  text-align: left;
 }
 
 .info h2 {
