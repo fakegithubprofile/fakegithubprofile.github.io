@@ -54,7 +54,7 @@ main {
   height: 170px; /*was 150*/
   border-radius: 30%; /*was 50%*/
   margin-bottom: 20px;
-  margin-right: 20px;
+  margin-top: 50px;
 }
 
 .intro {
