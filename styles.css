@@ -52,13 +52,19 @@ main {
   border:solid; /*remove later pls*/
 }
 
+.container {
+  display:grid;
+  align-items:center;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 30px; 
+}
+
 .profile-photo {
   float:left;
   width: 300px;
   height: 300px;
   border-radius: 30%;
   margin-bottom: 20px;
-  padding: 40px;
 }
 
 .info {
