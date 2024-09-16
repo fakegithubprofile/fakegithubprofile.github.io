@@ -1,115 +1,109 @@
 /* Import Montserrat font */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
+/* Base styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
 }
 
-/* Basic page styling */
 body {
-  background-color: #f4f4f4;
+  font-family: Montserrat, sans-serif;
+  background-color: #f9f9f9;
   color: #333;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.dark-mode body {
-  background-color: #2e2e2e;
-  color: #f4f4f4;
-}
-
-/* Header styling */
 header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 20px;
+  padding: 1rem;
+  background-color: #fff;
   border-bottom: 1px solid #ddd;
 }
 
-/* Profile section styling */
-.profile-section {
-  display: flex;
-  align-items: flex-start;
-  padding: 30px;
-}
-
-/* Circular profile picture */
-.profile-pic {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  margin-right: 30px;
-}
-
-/* Bio text section */
-.bio {
-  flex: 1;
-  font-size: 1.2rem;
-}
-
-/* Name in top left */
-.name {
-  font-size: 2rem;
-  font-weight: bold;
-}
-
-/* Navigation links on top right */
-nav {
-  display: flex;
-  align-items: center;
+.name a {
+  font-size: 24px;
+  color: #333;
+  text-decoration: none;
 }
 
 nav a {
-  margin-left: 20px;
+  margin-left: 15px;
   text-decoration: none;
   color: #333;
-  font-size: 1rem;
 }
 
-.dark-mode nav a {
-  color: #f4f4f4;
-}
-
-/* Dark mode button */
-#theme-toggle {
+nav .theme-toggle {
+  margin-left: 15px;
   background: none;
   border: none;
-  font-size: 1.5rem;
   cursor: pointer;
-  margin-left: 20px;
-  transition: transform 0.3s;
+  font-size: 18px;
 }
 
-#theme-toggle:hover {
-  transform: scale(1.2);
-}
-
-/* Social media links below the profile */
-.social-links {
+main {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  align-items: flex-start
+  padding: 20px;
+  gap: 20px;
+  /*height: calc(100vh - 70px);*/
 }
 
-.social-links a {
-  margin: 0 10px;
-  text-decoration: none;
-  color: #333;
-  font-size: 1.5rem;
+.profile-photo {
+  width: 170px; /*was 150*/
+  height: 170px; /*was 150*/
+  border-radius: 30%; /*was 50%*/
+  margin-bottom: 20px;
+  margin-top: 50px;
 }
 
-.dark-mode .social-links a {
-  color: #f4f4f4;
+.intro {
+  max-width: 500px;
+  text-align: left;
 }
 
-/* Utility classes */
-.dark-mode a {
-  color: #f4f4f4;
+.info h2 {
+  margin-bottom: 10px;
 }
 
-.dark-mode #theme-toggle {
-  color: #f4f4f4;
+.info p {
+  font-size: 18px;
+  margin-bottom: 8px;
 }
+
+/* Dark mode styles */
+body.dark {
+  background-color: #222;
+  color: #f1f1f1;
+}
+
+body.dark header {
+  background-color: #333;
+}
+
+body.dark nav a {
+  color: #f1f1f1;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  nav {
+    margin-top: 10px;
+  }
+}
+
+
+
+
+
+
+
+
