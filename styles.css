@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: Montserrat, sans-serif;
   background-color: #f9f9f9;
   color: #333;
   transition: background-color 0.3s ease, color 0.3s ease;
@@ -49,12 +49,13 @@ main {
 
 .intro {
   text-align: center;
+  border:solid; /*remove later pls*/
 }
 
 .profile-photo {
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 30%;
   margin-bottom: 20px;
 }
 
