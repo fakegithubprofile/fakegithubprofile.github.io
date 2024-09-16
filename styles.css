@@ -53,10 +53,15 @@ main {
 }
 
 .profile-photo {
+  float:left;
   width: 150px;
   height: 150px;
   border-radius: 30%;
   margin-bottom: 20px;
+}
+
+.info {
+  float:right;
 }
 
 .info h2 {
