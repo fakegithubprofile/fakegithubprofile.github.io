@@ -15,7 +15,7 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  padding: 1rem;
+  /*padding: 1rem;*/
   background-color: #fff;
   border-bottom: 1px solid #ddd;
 }
@@ -49,7 +49,7 @@ main {
 
 .intro {
   text-align: left;
-  border:solid; /*remove later pls*/
+  /*border:solid; /*remove later pls*/
 }
 
 .container {
