@@ -55,8 +55,8 @@ main {
 .container {
   display:grid;
   align-items:center;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 5px; 
+  grid-template-columns: 500px 500px;
+  column-gap: 10px; 
 }
 
 img{
