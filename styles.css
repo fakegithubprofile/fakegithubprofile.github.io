@@ -15,10 +15,9 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  padding: 5px 5px 5px;
+  padding: 0rem calc((100vw-1300px) / 2);
   background-color: #fff;
-  border-top: 5px;
-  border-bottom: 150px solid #ddd;
+  border-bottom: 5px solid #ddd;
 }
 
 .name a {
