@@ -55,7 +55,7 @@ main {
 .container {
   display:grid;
   align-items:center;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   column-gap: 30px; 
 }
 
@@ -66,8 +66,8 @@ img{
 
 .profile-photo {
   float:left;
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   border-radius: 30%;
   margin-bottom: 20px;
 }
