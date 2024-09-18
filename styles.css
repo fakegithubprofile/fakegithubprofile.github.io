@@ -34,12 +34,15 @@ nav a {
 header nav {
   display: flex;
   justify-content: space-between;
-  align-items: right;
+  align-items: center;
   padding: 0rem calc((100vw - 1300px) / 2);
   background-color: #fff;
   border-bottom: 5px solid #ddd;
 }
 
+.name{
+  flex-grow:1;
+}
 .name a {
   font-size: 1.5rem;
   color: #333;
