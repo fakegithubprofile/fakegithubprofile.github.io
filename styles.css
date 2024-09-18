@@ -34,7 +34,7 @@ nav a {
 header nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: right;
   padding: 0rem calc((100vw - 1300px) / 2);
   background-color: #fff;
   border-bottom: 5px solid #ddd;
@@ -88,7 +88,7 @@ main {
 
 .intro {
   text-align: left;
-  border:solid; /*remove later pls*/
+  /*border:solid; /*remove later pls*/
 }
 
 .container {
