@@ -16,7 +16,7 @@
       <a href="pages/cv.html">CV</a>
       <a href="pages/contact.html">Contact</a>
       <a href="pages/posts.html">Notes</a>
-      <button onclick=modeswitch()>☀️</button>
+      <button id = "modeswitchbutton" onclick=modeswitch()>☀️</button>
     </nav>
   </header>
 
@@ -34,6 +34,21 @@
     </section>
   </main>
 
-  <script src="scripts.js"></script>
+  <script>
+        function modeswitch() {
+            let element = document.body;
+            let content = document.getElementById("modeswitchbutton");
+            element.className = "dark-mode";
+            content.innerText = "☀️";
+        }
+        function lightMode() {
+            let element = document.body;
+            let content = document.getElementById("modeswitchbutton");
+            element.className = "light-mode";
+            content.innerText = "Dark Mode is OFF";
+        }
+    </script>
+
+  <!--<script src="scripts.js"></script>-->
 </body>
 </html>
