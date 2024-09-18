@@ -12,7 +12,7 @@ body {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-header {
+/*header {
   display: flex;
   justify-content: space-between;
   padding: 0rem calc((100vw-1300px)/2);
@@ -29,7 +29,41 @@ nav a {
   padding: 0rem calc((100vw - 1300px) / 2)
   text-decoration: none;
   color: #333;
+}*/
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem calc((100vw - 1300px) / 2);
+  background-color: #fff;
+  border-bottom: 5px solid #ddd;
 }
+
+.name a {
+  font-size: 1.5rem;
+  color: #333;
+  text-decoration: none;
+}
+
+nav a {
+  margin: 0 15px;
+  font-size: 1rem;
+  color: #333;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #0073e6;
+}
+
+.theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
 
 .name a {
   font-size: 24px;
