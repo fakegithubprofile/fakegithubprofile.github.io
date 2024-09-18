@@ -16,10 +16,10 @@ function modeswitch() {
             let element = document.body;
             let content = document.getElementById("modeswitchbutton");
             if (content.innerText == "☀️") {
-                        lightMode();
+                        darkMode();
             }
             else if (content.innerText == "🌙") {
-                        darkMode();
+                        lightMode();
             }
 }
   
