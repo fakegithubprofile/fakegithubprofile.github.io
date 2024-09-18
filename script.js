@@ -1,36 +1,15 @@
-function setDarkMode() {
-    let element = document.body;
-    let button = document.getElementById("modeswitchbutton");
-    element.classList.add("dark-mode");
-    element.classList.remove("light-mode");
-    button.innerText = "🌙";
-    localStorage.setItem('theme', 'dark');  // Store preference
-}
+    	// Get the button and body elements
+const darkModeToggle = document.getElementById('darkModeToggle');
+const body = document.body;
 
-function setLightMode() {
-    let element = document.body;
-    let button = document.getElementById("modeswitchbutton");
-    element.classList.add("light-mode");
-    element.classList.remove("dark-mode");
-    button.innerText = "☀️";
-    localStorage.setItem('theme', 'light');  // Store preference
-}
+// Function to toggle dark mode
+darkModeToggle.addEventListener('click', function() {
+    body.classList.toggle('dark-mode');  // Toggle the dark-mode class
 
-function modeswitch() {
-    let element = document.body;
-    if (element.classList.contains("light-mode")) {
-        setDarkMode();
+    // Change the button text based on the current mode
+    if (body.classList.contains('dark-mode')) {
+        darkModeToggle.textContent = "🌙 Switch to Light Mode";
     } else {
-        setLightMode();
+        darkModeToggle.textContent = "☀️ Switch to Dark Mode";
     }
-}
-
-// Load theme preference on page load
-window.onload = function() {
-    const storedTheme = localStorage.getItem('theme');
-    if (storedTheme === 'dark') {
-        setDarkMode();
-    } else {
-        setLightMode();  // Default to light mode if no preference
-    }
-}
+});
