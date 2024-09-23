@@ -31,42 +31,6 @@ nav a {
   color: #333;
 }*/
 
-/* Sidebar styles */
-.sidebar {
-    position: fixed; /* Fixes the sidebar on the side of the screen */
-    top: 0;
-    left: 0; /* Place it on the left side */
-    height: 100vh; /* Full viewport height */
-    width: 150px; /* Width of the sidebar */
-    background-color: #333; /* Sidebar background color */
-    padding-top: 20px; /* Some space at the top */
-    display: flex;
-    flex-direction: column; /* Stack buttons vertically */
-    z-index: 1000; /* Ensure it stays above other content */
-}
-
-.sidebar button {
-    background-color: #4CAF50; /* Button background */
-    color: white; /* Button text color */
-    border: none;
-    padding: 15px;
-    margin: 10px 0;
-    cursor: pointer;
-    width: 100%; /* Full width of the sidebar */
-    text-align: center;
-    font-size: 16px;
-}
-
-.sidebar button:hover {
-    background-color: #45a049; /* Hover effect */
-}
-
-/* Content styles */
-.content {
-    margin-left: 160px; /* Make space for the sidebar */
-    padding: 20px;
-}
-
 button:hover {
     background-color: #45a049; /* Darker green on hover */
 }
