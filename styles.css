@@ -53,7 +53,7 @@ button {
 
 button:hover {
     background-color: #939293;
-    border-radius:100%;
+    border-radius:70%;
 }
 .dark-mode {
     background-color: #333;
