@@ -31,6 +31,37 @@ nav a {
   color: #333;
 }*/
 
+.sidebar {
+    position: fixed; /* Fixes the sidebar in place */
+    top: 0;
+    left: 0; /* You can change this to right: 0; for right-side alignment */
+    height: 100%; /* Full height of the viewport */
+    width: 150px; /* Adjust the width as needed */
+    background-color: #333; /* Background color */
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    justify-content: flex-start; /* Align buttons from top down */
+    padding-top: 20px; /* Adds some space from the top */
+}
+
+button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: 10px 0; /* Space between buttons */
+    cursor: pointer;
+    width: 100%; /* Full width within the sidebar */
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
 header nav {
   display: flex;
   justify-content: space-between;
