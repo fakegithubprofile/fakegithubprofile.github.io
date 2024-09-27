@@ -8,8 +8,8 @@ darkModeToggle.addEventListener('click', function() {
 
     // Change the button text based on the current mode
     if (body.classList.contains('dark-mode')) {
-        darkModeToggle.textContent = "🌙";
-    } else {
         darkModeToggle.textContent = "☀️";
+    } else {
+        darkModeToggle.textContent = "🌙";
     }
 });
