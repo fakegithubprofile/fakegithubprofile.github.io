@@ -35,14 +35,14 @@ button:hover {
     background-color: #45a049; /* Darker green on hover */
 }
 
-header nav {
+/*header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0rem calc((100vw - 1300px) / 2);
   background-color: #e6e6e6;
   border-bottom: 5px solid #333;
-}
+}*/
 
 button {
     padding: 10px 20px;
