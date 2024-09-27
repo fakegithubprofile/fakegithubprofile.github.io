@@ -12,12 +12,36 @@ body {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-header {
+/*header {
   display: flex;
   justify-content: space-between;
   padding: 0rem calc((100vw-1300px)/2);
   background-color: #fff;
   border-bottom: 5px solid #ddd;
+}*/
+
+/* Header styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.name:hover {
+  background-color: #e9ecef;
 }
 
 nav a {
