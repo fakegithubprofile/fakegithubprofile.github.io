@@ -103,17 +103,17 @@ header {
 
 .name:hover {
   background-color: #e9ecef;
-  border-radius:30%;/*changed*/
+  border-radius:70%;/*changed*/
 }
 
 nav {
   display: flex;
   align-items: center;
-  margin-right: auto;/*changed*/
+  margin-left: auto;/*unchanged*/
 }
 
 nav a {
-  margin-right: 15px;/*changed*/
+  margin-left: 15px;/*unchanged*/
   text-decoration: none;
   color: #333;
 }
