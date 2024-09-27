@@ -103,7 +103,7 @@ header {
 
 .name:hover {
   background-color: #e9ecef;
-  border-radius:15%;/*changed*/
+  border-radius:5px;/*changed*/
 }
 
 nav {
@@ -118,16 +118,16 @@ nav a {
   color: #333;
 }
 
-.headerbuttons:hover{
+headerbuttons:hover{
   background-color: #fff;/*changed*/
-  border-radius:15%;
+  border-radius:5px;
 }
 
 button {
   padding: 10px 20px;
   cursor: pointer;
   border: none;
-  background-color: #e6e6e6;
+  /*background-color: #e6e6e6;*/
   color: #333;
   font-size: 1rem;
   border-radius: 5px;
@@ -146,15 +146,13 @@ button:hover {
 }
 
 .dark-mode button {
-  background-color: #555;
+  /*background-color: #555;*/
   color: #f9f9f9;
 }
 
 .dark-mode button:hover {
   background-color: #777;
 }
-
-
 
 .theme-toggle {
   background: none;
