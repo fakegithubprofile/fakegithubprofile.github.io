@@ -106,7 +106,7 @@ button:hover {
   text-decoration: none;
 }
 
-nav a {
+/*nav a {
   margin: 0 15px;
   font-size: 1rem;
   color: #333;
@@ -117,7 +117,7 @@ nav a:hover {
   background-color: #939393;
   color: #0073e6;
   transition: background-color 0.3s ease, color 0.3s ease;
-}
+}*/
 
 .theme-toggle {
   background: none;
