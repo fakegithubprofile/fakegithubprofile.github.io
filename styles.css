@@ -17,7 +17,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #ffe9d9; /*#f8f9fa -> #ffe9d9*/
+  background-color: #f8f9fa; /*#f8f9fa -> #ffe9d9*/
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
@@ -73,6 +73,10 @@ button:hover {
 .dark-mode {
   background-color: #333;
   color: #f9f9f9;
+}
+
+.dark-mode header {
+  
 }
 
 .dark-mode button {
